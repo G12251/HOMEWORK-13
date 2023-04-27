@@ -1,0 +1,140 @@
+.articles {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.articles-container {
+  padding: 80px 0px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  max-width: 1320px;
+  width: 100%;
+  flex-direction: column;
+}
+.articles-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1320px;
+  padding-bottom: 65px;
+}
+
+.articles-text h2 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #57b8ff;
+  padding-bottom: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.articles-text h2::before {
+  content: url(../assets/fire.svg);
+  padding-right: 8px;
+}
+.articles-text h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.texts h1 {
+  display: block;
+  float: left;
+}
+.texts a {
+  display: block;
+  float: right;
+  background: #57b8ff;
+  text-decoration: none;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 21px 34px;
+}
+
+.texts a:hover {
+  background: #fdd04a;
+}
+
+.articles-img-container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+
+
+.articles-img-left h2 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #57b8ff;
+  padding: 64px 0px 28px;
+}
+.articles-img-left h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: capitalize;
+  color: #ffffff;
+  max-width: 607px;
+}
+.article-right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.articles-img-right {
+    display: flex;
+    flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+
+
+.articles-img-right h2 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #57b8ff;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.articles-img-right h1 {
+max-width: 285px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #ffffff;
+}

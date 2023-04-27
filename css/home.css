@@ -1,0 +1,78 @@
+.home {
+  background: linear-gradient(to right, black 50%, #57b8ff 50%);
+  min-height: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1320px;
+}
+
+.home-esports {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.home-texts h2 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57b8ff;
+  padding-bottom: 24px;
+}
+
+.home-texts h2::before {
+  content: url(../assets/fire.svg);
+  padding-right: 20px;
+}
+.home-texts h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding-bottom: 45px;
+}
+.home-texts h1 > span {
+  display: flex;
+  
+  
+}
+
+.home-texts p {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #999999;
+  padding-bottom: 53px;
+}
+
+.esports-btns a {
+    padding: 21px 34px;
+  text-decoration: none;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.esports-btns a:hover{
+    background: #57B8FF;
+    color: #ffffff;
+}

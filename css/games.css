@@ -1,0 +1,58 @@
+.games{
+    height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.games-part {
+  position: relative;
+  display: inline-block;
+  align-items: center;
+}
+
+.games-part img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.games-part .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.games-part:hover .overlay {
+  opacity: 1;
+}
+.overlay img {
+  height: 186px;
+  width: 480px;
+  left: 0px;
+  top: 273px;
+  border-radius: 0px;
+}
+
+.games-part .overlay img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80%;
+  max-height: 80%;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.games-part:hover .overlay img {
+  opacity: 1;
+}

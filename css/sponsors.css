@@ -1,0 +1,48 @@
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fdd04a;
+  min-height: 542px;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sponsors-texts h1 {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #222730;
+}
+.sponsors-texts img {
+  display: flex;
+  padding-left: 186px;
+}
+.sponsors-texts p {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #555555;
+  max-width: 576px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.sponsors-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1320px;
+    width: 100%;
+    flex-wrap: wrap;
+}
